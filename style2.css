@@ -1,15 +1,15 @@
-
 body {
   background-image: url(https://i.pinimg.com/564x/41/b9/80/41b98032fc7b1f001c9432a885381365.jpg);
-background-size: cover;
-background-repeat: no repeat;
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
-/*why isnt this working?*/
+
 .image-container {
   width: 200px;  
   height: 200px; 
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .image-container img {
@@ -17,25 +17,8 @@ background-repeat: no repeat;
   max-height: 100%;
 }
 
-h1 {
+h1, h2, li {
   color: white;
-  text-align: center;
-  font-family: verdana;
-}
-
-p {
-  color: white;
-  text-align: center;
-  font-family: Verdana;
-  font-size: 20px;
-}
-h2{
- color: white;
-   text-align: center;
-  font-family: verdana;
-}
-li{
- color: white;
   text-align: center;
   font-family: verdana;
 }
