@@ -1,1 +1,41 @@
 
+body {
+  background-image: url(https://i.pinimg.com/564x/41/b9/80/41b98032fc7b1f001c9432a885381365.jpg);
+background-size: cover;
+background-repeat: no repeat;
+}
+
+.image-container {
+  width: 200px; 
+  height: 200px; 
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+}
+h2{
+ color: white;
+   text-align: center;
+  font-family: verdana;
+}
+li{
+ color: white;
+  text-align: center;
+  font-family: verdana;
+}
