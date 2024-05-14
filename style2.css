@@ -4,7 +4,7 @@ body {
 background-size: cover;
 background-repeat: no repeat;
 }
-
+/*why isnt this working?*/
 .image-container {
   width: 200px;  
   height: 200px; 
